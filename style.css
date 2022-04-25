@@ -379,6 +379,10 @@ th, td{
 	padding-left: 0.9rem;
 }
 @media  screen and (min-width: 0px) and (max-width: 1080px) {
+	body{
+		margin: 0;
+		width: 100vh;
+	}
 	#table-container{
 		padding: 0;
 	}
