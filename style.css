@@ -381,7 +381,7 @@ th, td{
 @media  screen and (min-width: 0px) and (max-width: 800px) {
 	body{
 		margin: 0;
-		width: 100vh;
+		width: 100vw;
 	}
 	#table-container{
 		padding: 0;
