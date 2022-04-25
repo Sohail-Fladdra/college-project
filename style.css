@@ -378,7 +378,7 @@ th, td{
 	text-align: left;
 	padding-left: 0.9rem;
 }
-@media  screen and (min-width: 0px) and (max-width: 1080px) {
+@media  screen and (min-width: 0px) and (max-width: 800px) {
 	body{
 		margin: 0;
 		width: 100vh;
@@ -386,11 +386,17 @@ th, td{
 	#table-container{
 		padding: 0;
 	}
-	header{
-		font-size: 0.5rem;
-		padding-top: .6rem;
-	}
 	h1{
-		color: red;
+		display: flex;
 	}
+	h1 img{
+		width: 10%;
+	}
+	h1 p{
+		font-size: 3rem;
+	}	
+	body > *{
+		width: inherit;
+	}
+
 }
