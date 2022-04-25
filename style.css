@@ -390,4 +390,7 @@ th, td{
 		font-size: 1rem;
 		padding-top: .6rem;
 	}
+	h1{
+		color: red;
+	}
 }
